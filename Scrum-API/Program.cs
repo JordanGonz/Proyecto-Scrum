@@ -38,8 +38,8 @@ builder.Services.AddCors(options =>
 });
 
 
-//builder.Services.AddDbContext<ScrumManagementContext>(options =>
-//        options.UseSqlServer(builder.Configuration.GetConnectionString("conexion")));
+builder.Services.AddDbContext<ScrumManagementContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("conexion")));
 
 app.UseHttpsRedirection();
 
