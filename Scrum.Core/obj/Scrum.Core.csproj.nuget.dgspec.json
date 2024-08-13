@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum-API\\Scrum-API.csproj": {}
+    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum-API\\Scrum-API.csproj": {
+    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum-API\\Scrum-API.csproj",
-        "projectName": "Scrum-API",
-        "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum-API\\Scrum-API.csproj",
+        "projectUniqueName": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj",
+        "projectName": "Scrum.Core",
+        "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj",
         "packagesPath": "C:\\Users\\OMEN R7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum-API\\obj\\",
+        "outputPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OMEN R7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,32 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "Karambolo.Extensions.Logging.File": {
-              "target": "Package",
-              "version": "[3.5.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.20, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.20, )"
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -77,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
