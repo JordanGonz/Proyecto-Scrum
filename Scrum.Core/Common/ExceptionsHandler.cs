@@ -2,7 +2,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
-using Scrum.Core.Contracts;
+using Scrum.Core.Contracts.Middleware;
 using Scrum.Core.Models.ApiResponse;
 
 namespace Scrum.Core.Common

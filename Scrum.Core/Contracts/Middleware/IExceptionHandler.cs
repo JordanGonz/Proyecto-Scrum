@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Scrum.Core.Contracts
+namespace Scrum.Core.Contracts.Middleware
 {
     public interface IExceptionHandler
     {
