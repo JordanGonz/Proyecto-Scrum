@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "yjW4XKAi4oK2S6pn3QCyebmKwlivu9Us1ChOZ3jtPiYbgQfoKmGf2H+zWSTFTJ+COx7WeQCbvheYzVCMF6Ut4A==",
+  "dgSpecHash": "ebKVPU1M5GEn/DBQFOd+JakaGHigiZf/C6nZS7UofELfKVTiSdEE+IPjbQ0aeHooJ/ZzaoMfHBXhksdUiA5rFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.20\\microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.20\\microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.20\\microsoft.entityframeworkcore.analyzers.7.0.20.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\OMEN R7\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

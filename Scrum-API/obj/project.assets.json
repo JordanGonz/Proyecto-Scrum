@@ -1256,6 +1256,19 @@
             "rid": "win"
           }
         }
+      },
+      "Scrum.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/Scrum.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Scrum.Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -3535,6 +3548,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Scrum.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../Scrum.Infraestructure/Scrum.Infraestructure.csproj",
+      "msbuildProject": "../Scrum.Infraestructure/Scrum.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3544,6 +3562,7 @@
       "Microsoft.EntityFrameworkCore >= 7.0.20",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.20",
       "Microsoft.Extensions.Logging >= 8.0.0",
+      "Scrum.Infraestructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -3573,7 +3592,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
