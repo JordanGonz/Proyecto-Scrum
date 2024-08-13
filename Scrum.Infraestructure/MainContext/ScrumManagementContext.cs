@@ -10,7 +10,8 @@ namespace Scrum.Infraestructure.MainContext
     public partial class ScrumManagementContext : DbContext
 
     {
-        public ScrumManagementContext(DbContextOptions options) : base(options)
+        public ScrumManagementContext(DbContextOptions<ScrumManagementContext> options)
+            : base(options)
         {
         }
     }
