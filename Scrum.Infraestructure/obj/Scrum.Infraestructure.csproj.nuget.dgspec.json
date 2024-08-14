@@ -4,14 +4,14 @@
     "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj": {
+    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj",
-        "projectName": "Scrum.Infraestructure",
-        "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj",
+        "projectName": "Scrum.Core",
+        "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj",
         "packagesPath": "C:\\Users\\OMEN R7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OMEN R7\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,86 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.1.34, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj",
+        "projectName": "Scrum.Infraestructure",
+        "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\Scrum.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\OMEN R7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\OMEN R7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj": {
+                "projectPath": "C:\\Users\\OMEN R7\\OneDrive\\Desktop\\EMPRESA\\Scrum-API\\Scrum.Core\\Scrum.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

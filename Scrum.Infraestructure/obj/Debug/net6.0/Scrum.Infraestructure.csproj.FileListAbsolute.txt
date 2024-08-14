@@ -12,3 +12,6 @@ C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\obj\De
 C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\obj\Debug\net6.0\Scrum.Infraestructure.pdb
 C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\obj\Debug\net6.0\Scrum.Infraestructure.genruntimeconfig.cache
 C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\obj\Debug\net6.0\ref\Scrum.Infraestructure.dll
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\bin\Debug\net6.0\Scrum.Core.dll
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\bin\Debug\net6.0\Scrum.Core.pdb
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Infraestructure\obj\Debug\net6.0\Scrum.Infraestructure.csproj.CopyComplete

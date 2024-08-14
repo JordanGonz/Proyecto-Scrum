@@ -11,7 +11,7 @@ namespace Scrum.Core.Contracts.Services
     {
         Task<List<ListaDto>> ObtenerTodosLasListaAsync();
         Task<ListaDto> ObtenerListaPorIdAsync(int idLista);
-        Task<bool> CrearListaAsync(ListaDto equipoCreacionDto);
+        Task<bool> CrearListaAsync(ListaDto listaDto);
         Task<bool> ActualizarListaAsync(int idLista, ListaDto listaDto);
         Task<bool> EliminarListaAsync(int idLista);
     }

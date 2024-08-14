@@ -40,6 +40,10 @@ public partial class ScrumManagementContext : DbContext
             entity.HasKey(e => e.Id).HasName("PK__Comentar__3214EC07BD59FEFB");
 
             entity.Property(e => e.Comentario).HasColumnType("text");
+            entity.Property(e => e.Estado)
+                .HasMaxLength(1)
+                .IsUnicode(false)
+                .IsFixedLength();
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");

@@ -9,7 +9,7 @@ namespace Scrum.Core.Contracts.Services
     {
         Task<List<ComentariosTareaDto>> ObtenerTodosLoComentariosAsync();
         Task<ComentariosTareaDto> ObtenerComentariosPorIdAsync(int idComentario);
-        Task<bool> CrearComentariosAsync(ComentariosTareaDto equipoCreacionDto);
+        Task<bool> CrearComentariosAsync(ComentariosTareaDto comentariosTareaDto);
         Task<bool> ActualizarComentariosAsync(int idComentario, ComentariosTareaDto comentariosTareaDto);
         Task<bool> EliminarComentariosAsync(int idComentario);
     }

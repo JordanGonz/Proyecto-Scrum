@@ -7,7 +7,7 @@ using Scrum.Core.Models.ApiResponse;
 
 namespace Scrum.Core.Common
 {
-    internal class ExceptionsHandler : IExceptionHandler
+    public class GenericExceptionHandler : IExceptionHandler
     {
         public async Task HandleAsync(HttpContext context, Exception exception)
         {
@@ -29,6 +29,39 @@ namespace Scrum.Core.Common
             }
             );
             await response.WriteAsync(result);
+        }
+    }
+
+    public class ExceptionMiddleware
+    {
+        private readonly RequestDelegate _next;
+        private readonly IExceptionHandler _exceptionHandler;
+
+        public ExceptionMiddleware(RequestDelegate next, IExceptionHandler exceptionHandler)
+        {
+            _next = next;
+            _exceptionHandler = exceptionHandler;
+        }
+
+        public async Task InvokeAsync(HttpContext httpContext)
+        {
+            try
+            {
+
+                await _next(httpContext);
+            }
+            catch (Exception ex)
+            {
+                await _exceptionHandler.HandleAsync(httpContext, ex);
+            }
+        }
+    }
+
+    public static class ExceptionMiddlewareExtensions
+    {
+        public static IApplicationBuilder UseExceptionMiddleware(this IApplicationBuilder builder)
+        {
+            return builder.UseMiddleware<ExceptionMiddleware>();
         }
     }
 }

@@ -15,6 +15,8 @@ public partial class ComentariosTarea
 
     public DateTime FechaCreacion { get; set; }
 
+    public string? Estado { get; set; }
+
     public virtual Tarea IdTareaNavigation { get; set; } = null!;
 
     public virtual Usuario IdUsuarioCreadorNavigation { get; set; } = null!;
