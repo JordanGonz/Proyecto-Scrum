@@ -32,8 +32,10 @@ builder.Services.AddCors(options =>
 
 
 builder.Services.AddAutoMapper(
-    typeof(ComentariosProfile)
+    typeof(ComentariosProfile),
+    typeof(ListaProfile)
 );
+
 
 
 builder.Services.AddDbContext<ScrumManagementContext>(options =>
@@ -42,9 +44,7 @@ builder.Services.AddDbContext<ScrumManagementContext>(options =>
 
 
 builder.Services.AddHttpContextAccessor();
-
 builder.Services.AddTransient<IExceptionHandler, GenericExceptionHandler>();
-
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 
