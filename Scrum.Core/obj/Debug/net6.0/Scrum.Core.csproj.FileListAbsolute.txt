@@ -1,0 +1,12 @@
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\bin\Debug\net6.0\Scrum.Core.deps.json
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\bin\Debug\net6.0\Scrum.Core.dll
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\bin\Debug\net6.0\Scrum.Core.pdb
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.csproj.AssemblyReference.cache
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.AssemblyInfoInputs.cache
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.AssemblyInfo.cs
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.csproj.CoreCompileInputs.cache
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.dll
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\refint\Scrum.Core.dll
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\Scrum.Core.pdb
+C:\Users\OMEN R7\OneDrive\Desktop\EMPRESA\Scrum-API\Scrum.Core\obj\Debug\net6.0\ref\Scrum.Core.dll
