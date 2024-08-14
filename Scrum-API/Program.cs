@@ -67,7 +67,7 @@ app.UseCors("ISCPolicy");
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Integrity Project Management v1.0");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API Scrum Project Management v1.0");
 
 });
 
